@@ -1,0 +1,60 @@
+<div class="row form-page">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-6 col-md-6 panel-wrapper">
+      <div class="panel panel-primary text-center">
+      <div class="panel-heading"><h4>Edit Student Info</h4></div>
+      <div class="panel-body">
+  <form class="" role="form" ng-submit="updateStudent()" ng-init="getStudent()">
+  <div class="form-group">
+    <label class="control-label col-sm-2">Name:</label>
+    <div class="col-sm-10 space-form">
+      <input type="text" class="form-control" ng-model="student.name" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2">Reg:</label>
+    <div class="col-sm-10 space-form">
+      <input type="text" class="form-control" ng-model="student.reg" placeholder="Reg">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2">Department:</label>
+    <div class="col-sm-10 space-form">
+      <input type="text" class="form-control" ng-model="student.department" placeholder="Department">
+    </div>
+  </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Level</label>
+        <div class="col-sm-10 space-form">
+        <select class="form-control" ng-model="student.level">
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+          <option>600</option>
+          <option>700</option>
+          <option>Post Greaduate</option>
+        </select>
+      </div>
+      </div>
+
+  <div class="form-group">
+        <label class="control-label col-sm-2">Gender</label>
+        <div class="col-sm-10 space-form">
+        <select class="form-control" ng-model="student.gender">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default btn-primary pull-right">Submit</button>
+    </div>
+  </div>
+</form>
+  </div>
+</div>
+</div>
+<div class="col-lg-3"></div>
+</div>

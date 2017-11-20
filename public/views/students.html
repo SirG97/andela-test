@@ -1,0 +1,21 @@
+<div class="row">
+<div class="col-lg-1"></div>
+  <div class="col-lg-10" ng-init="getStudents()">                                                                 
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h4>Students</h4></div>
+      <div class="panel-body">
+        <div class="row">
+         <div ng-repeat="student in students">
+          <div class="col-lg-6 col-md-6 text-left info">
+           <p>Name: <strong>{{student.name}}</strong></p>
+           <p>Reg: <strong>{{student.reg}}</strong></p>
+           <p>Department: <strong>{{student.department}}</strong></p> 
+           <a href="#/students/{{student._id}}" class="btn btn-primary">More Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-1"></div>
+</div>
+</div>

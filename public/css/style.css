@@ -1,0 +1,34 @@
+html,body{
+	font-family: segoe ui;
+	background-color: #000033;
+}
+h3,h4{
+	text-transform: uppercase;
+}
+
+.navbar {
+  background-color: #000033;
+  border-color: transparent;
+}
+
+.my-views{
+	margin-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+.back{
+	padding-top: 70px;
+}
+
+.info{
+	padding-bottom: 30px;
+}
+
+.space-form{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.panel-wrapper{
+	margin-top:40px;
+}

@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-6" ng-init="getStudent()">
+        <div class="panel panel-primary">
+      <div class="panel-heading"><h4>{{student.name}}</h4></div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-lg-12  text-left">
+           <p>Reg: <strong>{{student.reg}}</strong></p>
+           <p>Department: <strong>{{student.department}}</strong></p>
+           <p>Level: <strong>{{student.level}}</strong></p> 
+           <p>Gender: <strong>{{student.gender}}</strong></p> 
+          </div>
+      </div>
+      <div>
+      <a href="#/students" class="btn btn-primary">Back to students</a>
+      <a href="#/edit-student/{{student._id}}" class="btn btn-warning">Edit info</a>
+      <a href="#" ng-click="rusticate(student._id)" class="btn btn-danger">Rusticate</a>
+    </div>
+    </div>
+  </div>
+   
+  </div>
+  <div class="col-lg-3"></div>
+</div>
+
+
